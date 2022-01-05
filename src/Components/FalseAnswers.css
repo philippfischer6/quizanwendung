@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+  
+    background: #43cea2;
+    background: -webkit-linear-gradient(
+      to right,
+      #43cea2,
+      #185a9d
+    ); 
+    background: linear-gradient(
+      to right,
+      #43cea2,
+      #185a9d
+    );
+  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+
+  .falseanswer{
+    margin-top: 2%;
+    color:black;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute; 
+  }
+  

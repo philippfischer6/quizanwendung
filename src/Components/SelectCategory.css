@@ -1,0 +1,77 @@
+.search {
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 5px
+}
+
+.element{
+    padding-top: 10px;
+}
+
+
+.element-switch{    
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+
+.element-switch-text{    
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+ 
+ 
+.error{
+    color:red;
+}
+
+.number-input {
+    position: relative;
+    width: 100%
+}
+ 
+.number-input input {
+    width: 100%;
+    padding-left: 170px; 
+}
+ 
+.number-input input:focus {  
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    transition: background-color 5000s ease-in-out 0s;
+    border-color: none;
+    box-shadow: none;
+    outline: none
+}
+ 
+.number-input input:hover {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    transition: background-color 5000s ease-in-out 0s;
+    border-color: none;
+    box-shadow: none;
+    outline: none
+}
+ 
+.number-input i {
+    padding-left:0.75rem;    
+    position: absolute;
+    top: 6.5px;
+    font-size: 1rem;
+    font-style: normal;
+    color: Black;
+}
+.number-input input:-webkit-autofill,
+.number-input input:-webkit-autofill:hover, 
+.number-input input:-webkit-autofill:focus{
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    transition: background-color 5000s ease-in-out 0s;
+    border-color: none;
+    box-shadow: none;
+    outline: none
+}
